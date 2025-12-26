@@ -132,12 +132,12 @@ export default function Fleet() {
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-3">
-              <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-green-500">
+              <div className="relative w-16 h-10 rounded-lg overflow-hidden border-2 border-green-500">
                 <Image
                   src="/images/coyslogo.jpg"
                   alt="Coys Logistics Logo"
                   fill
-                  className="object-cover"
+                  className="object-contain bg-slate-800"
                 />
               </div>
               <span className="text-xl font-bold text-white">COYS <span className="text-green-400">LOGISTICS</span></span>
@@ -565,12 +565,12 @@ export default function Fleet() {
             {/* Logo & Description */}
             <div className="md:col-span-2">
               <Link href="/" className="flex items-center space-x-3 mb-4">
-                <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-green-500">
+                <div className="relative w-16 h-10 rounded-lg overflow-hidden border-2 border-green-500">
                   <Image
                     src="/images/coyslogo.jpg"
                     alt="Coys Logistics Logo"
                     fill
-                    className="object-cover"
+                    className="object-contain bg-slate-800"
                   />
                 </div>
                 <span className="text-xl font-bold text-white">COYS <span className="text-green-400">LOGISTICS</span></span>

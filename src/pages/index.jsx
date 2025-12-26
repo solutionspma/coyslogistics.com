@@ -696,9 +696,21 @@ export default function Home() {
               <p className="text-gray-500 text-sm">
                 © 2024 Coys Logistics. All rights reserved.
               </p>
-              <p className="text-gray-500 text-sm">
-                A <a href="https://pitchmarketing.agency" className="text-green-400 hover:underline">Pitch Marketing Agency</a> Brand
-              </p>
+              <div className="text-center md:text-right">
+                <p className="text-gray-500 text-sm">
+                  Powered by{' '}
+                  <a href="https://pitchmodularspaces.com" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 hover:underline">
+                    Pitch Modular Spaces
+                  </a>
+                  {' '}|{' '}
+                  <a href="https://pitchmarketing.agency" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-300 hover:underline">
+                    Pitch Marketing Agency
+                  </a>
+                </p>
+                <p className="text-gray-600 text-xs mt-1">
+                  A division of Pitch Market Strategies & Public Relations LLC
+                </p>
+              </div>
             </div>
           </div>
         </footer>
